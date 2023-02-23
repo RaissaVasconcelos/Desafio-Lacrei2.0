@@ -19,7 +19,7 @@ export const HeaderContainer = styled.header`
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-    color: ${(props) => props.theme['color-green']};
+    color: ${(props) => props.theme['green-100']};
 }
 
 `
@@ -32,7 +32,7 @@ export const NavContainer = styled.nav`
   font-size: 16px;
   line-height: 22px;
 
-  color: ${(props) => props.theme['black-100']};
+  color: ${(props) => props.theme['black-200']};
 
   flex: none;
   order: 0;
