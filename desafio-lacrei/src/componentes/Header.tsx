@@ -1,16 +1,16 @@
-import styles from './Header.module.css'
+import { HeaderContainer, NavContainer } from './Header.style'
 
 export function Header() {
   return (
-    <header className={styles.content}>
-      <section className={styles.title}>
+    <HeaderContainer>
+      <div>
         <h1>Lacrei</h1>
-      </section>
-      <nav className={styles.nav}>
-        <p>Home</p>
-        <p>Pessoa Usuária</p>
-        <p>Profissional</p>
-      </nav>
-    </header>
+        <NavContainer>
+          <p>Home</p>
+          <p>Pessoa Usuária</p>
+          <p>Profissional</p>
+        </NavContainer>
+      </div>
+    </HeaderContainer>
   )
 }
