@@ -1,4 +1,4 @@
-import { HeaderContainer, NavContainer } from './Header.style'
+import { HeaderContainer, NavContainer, NavbarLink } from './Header.style'
 import { NavLink } from 'react-router-dom'
 
 export function Header() {
@@ -7,9 +7,9 @@ export function Header() {
       <div>
         <h1>Lacrei</h1>
         <NavContainer>
-          <NavLink to='/'>Home</NavLink>
-          <NavLink to='/'>Pessoa Usuária</NavLink>
-          <NavLink to='/'>Pessoa Profissional</NavLink>
+          <NavbarLink to='/'>Home</NavbarLink>
+          <NavbarLink to='/pessoa-usuaria'>Pessoa Usuária</NavbarLink>
+          <NavbarLink to='/profissional'>Profissional</NavbarLink>
         </NavContainer>
       </div>
     </HeaderContainer>

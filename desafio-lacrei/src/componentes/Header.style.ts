@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { NavLink } from 'react-router-dom'
 
 export const HeaderContainer = styled.header`
   height: 60px;
@@ -20,8 +21,7 @@ export const HeaderContainer = styled.header`
     font-size: 32px;
     line-height: 44px;
     color: ${(props) => props.theme['green-100']};
-}
-
+  }
 `
 
 export const NavContainer = styled.nav`
@@ -31,14 +31,16 @@ export const NavContainer = styled.nav`
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
-
-  color: ${(props) => props.theme['black-200']};
-
   flex: none;
   order: 0;
   flex-grow: 0;
+`
 
-  a {
-    text-decoration: none;
-  }
+export const NavbarLink = styled(NavLink)`
+  color: ${(props) => props.theme['black-200']};
+  font-weight: 700;
+  text-decoration: none;
+  &.active {
+    color: ${(props) => props.theme['green-100']}
+  };
 `
