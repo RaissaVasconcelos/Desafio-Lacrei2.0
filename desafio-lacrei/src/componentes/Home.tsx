@@ -1,5 +1,5 @@
 import image from '../../public/rafiki 2.svg'
-import { Main, ButtonContainer, SectionText } from './Home.styled'
+import { Main, ButtonContainer, ButtonGreen, SectionText, Button } from './Home.styled'
 
 export function Home() {
   return (
@@ -8,8 +8,8 @@ export function Home() {
         <h1>Boas vindas a Lacrei Saúde</h1>
         <p>Uma plataforma segura e acolhedora para comunidade LGBTQIAPN+</p>
         <ButtonContainer>
-          <button>Pessoa Usuária</button>
-          <button>Pessoa Profissional</button>
+          <ButtonGreen>Pessoa Usuária</ButtonGreen>
+          <Button>Profissional</Button>
         </ButtonContainer>
       </SectionText>
       <section>
