@@ -37,4 +37,8 @@ export const NavContainer = styled.nav`
   flex: none;
   order: 0;
   flex-grow: 0;
+
+  a {
+    text-decoration: none;
+  }
 `

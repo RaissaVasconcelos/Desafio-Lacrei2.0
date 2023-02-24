@@ -6,7 +6,7 @@ export const Main = styled.main`
   justify-content: baseline;
   justify-content: space-between;
   gap: 8px;
-  margin: 64px 64px;
+  margin: 64px 64px 0px;
 `
 
 export const ButtonContainer = styled.div`

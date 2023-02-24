@@ -1,5 +1,4 @@
 import image from '../../public/rafiki 2.svg'
-import { Header } from './Header'
 import { Main, ButtonContainer, SectionText } from './Home.styled'
 
 export function Home() {
