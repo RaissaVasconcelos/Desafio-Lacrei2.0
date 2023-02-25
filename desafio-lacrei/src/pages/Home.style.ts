@@ -15,23 +15,23 @@ export const ButtonContainer = styled.div`
   gap: 69px;
   margin-top: 16px;
 `
-export const Button = styled.button`
-  padding: 0.6rem 2rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 200px;
-  border-radius: 8px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  border: 2px solid ${(props) => props.theme['green-100']};
-  color: ${(props) => props.theme['green-100']};
-`
+// export const Button = styled.button`
+//   padding: 0.6rem 2rem;
+//   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+//   width: 200px;
+//   border-radius: 8px;
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 18px;
+//   line-height: 25px;
+//   border: 2px solid ${(props) => props.theme['green-100']};
+//   color: ${(props) => props.theme['green-100']};
+// `
 
-export const ButtonGreen = styled(Button)`
-  background-color: ${(props) => props.theme['green-100']};
-  color: ${(props) => props.theme['white']};
-`
+// export const ButtonGreen = styled(Button)`
+//   background-color: ${(props) => props.theme['green-100']};
+//   color: ${(props) => props.theme['white']};
+// `
 
 export const SectionText = styled.section`
   display: flex;

@@ -10,11 +10,11 @@ export const GlobalStyle = createGlobalStyle`
       outline: 0;
   }
   body {
-      background-color: ${(props) => props.theme['white']};
-      color: ${(props) => props.theme['black-200']};
-      -webkit-font-smoothing: antialiased
+    background-color: ${(props) => props.theme['white']};
+    color: ${(props) => props.theme['black-200']};
+    -webkit-font-smoothing: antialiased
   }
   body, input, textarea, button {
-      font: 400 1rem Nunito, sans-serif;  
+    font: 400 1rem Nunito, sans-serif;  
   }
 `
