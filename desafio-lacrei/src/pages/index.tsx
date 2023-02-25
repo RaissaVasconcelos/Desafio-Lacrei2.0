@@ -18,7 +18,7 @@ export function Home() {
             link='/profissiona'
             color='#018762'
             background='#FFFFFF'
-            content='Pessoa Usuária'/>
+            content='Profissional'/>
         </ButtonContainer>
       </SectionText>
       <section>
