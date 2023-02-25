@@ -1,4 +1,4 @@
-import { SectionText, Main } from './Person.style'
+import { SectionText, Main, TextPerson } from './Person.style'
 
 interface PersonProps {
   image: string
@@ -11,11 +11,9 @@ export function Person({ text, image, title }: PersonProps) {
     <Main>
       <SectionText>
         <h1>{title}</h1>
-        <p>{text}</p>
+        <TextPerson>{text}</TextPerson>
       </SectionText>
-      <section>
-        <img src={image} alt='Imagem de Usuários'/>
-      </section>
+      <img src={image} alt='Imagem de Usuários'/>
     </Main>
   )
 }
