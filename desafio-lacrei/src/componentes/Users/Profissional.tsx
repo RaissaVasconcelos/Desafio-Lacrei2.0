@@ -1,6 +1,6 @@
 import image from '../../../public/profissional.svg'
 
-export function PessoaUsuaria() {
+export function Profissional() {
   return (
     <main>
       <section>
