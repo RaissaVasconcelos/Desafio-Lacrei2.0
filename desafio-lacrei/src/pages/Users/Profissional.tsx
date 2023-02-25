@@ -1,5 +1,5 @@
 import image from '../../../public/profissional.svg'
-import { Person } from '../Person'
+import { Person } from '../../componentes/Person'
 
 export function Profissional() {
   const text = `A Lacrei garante que pessoas LGBTQIAPN + recebam
