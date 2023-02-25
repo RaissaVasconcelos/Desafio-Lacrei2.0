@@ -15,7 +15,7 @@ export function Home() {
             background='#018762'
             content='Pessoa Usuária'/>
           <Button
-            link='/profissiona'
+            link='/profissional'
             color='#018762'
             background='#FFFFFF'
             content='Profissional'/>
