@@ -1,4 +1,4 @@
-import image from '../../../public/profissional.svg'
+import image from '../../images/profissional.svg'
 import { Person } from '../../componentes/Person'
 
 export function Profissional() {

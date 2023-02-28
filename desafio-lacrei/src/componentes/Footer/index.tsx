@@ -1,7 +1,7 @@
 import { ContainerLogo, ContainerNav, ContainerFooter, NavbarLink } from './Footer.style'
-import fb from '../../../public/FacebookLogo.svg'
-import insta from '../../../public/InstagramLogo.svg'
-import linkedin from '../../../public/LinkedinLogo.svg'
+import fb from '../../images/FacebookLogo.svg'
+import insta from '../../images/InstagramLogo.svg'
+import linkedin from '../../images/LinkedinLogo.svg'
 
 export function Footer() {
   return(

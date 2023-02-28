@@ -1,4 +1,4 @@
-import image from '../../../public/home.svg'
+import image from '../../images/home.svg'
 import { Main, ButtonContainer, SectionText } from './Home.style'
 import { Button } from '../../componentes/Button';
 

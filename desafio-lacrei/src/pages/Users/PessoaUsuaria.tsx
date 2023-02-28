@@ -1,4 +1,4 @@
-import image from '../../../public/pessoa-usuaria.svg'
+import image from '../../images/pessoa-usuaria.svg'
 import { Person } from '../../componentes/Person'
 
 export function PessoaUsuaria() {

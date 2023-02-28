@@ -14,8 +14,8 @@ function App() {
         <Route path={'/pessoa-usuaria'} element={<PessoaUsuaria />} />
         <Route path={'/profissional'} element={<Profissional />} />
       </Routes>
-      <GlobalStyle />
       <Footer />
+      <GlobalStyle />
     </ThemeProvider>
   )
 }
