@@ -28,7 +28,7 @@ Para conseguir executar a aplicação use os comandos abaixo:
     
 ## 💻 Funcionalidades 
 
-![lacrei](nome-do-giphy.gif)
+![lacrei](LacreiPage.gif)
 
 <div>
   <p align="center">🍀</p>
