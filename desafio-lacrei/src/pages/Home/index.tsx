@@ -13,12 +13,16 @@ export function Home() {
             link='/pessoa-usuaria'
             color='#FFFFFF'
             background='#018762'
-            content='Pessoa Usuária'/>
+            content='Pessoa Usuária'
+            testid='btn-user'
+          />
           <Button
             link='/profissional'
             color='#018762'
             background='#FFFFFF'
-            content='Profissional'/>
+            content='Profissional'
+            testid='btn-profissional'
+          />
         </ButtonContainer>
       </SectionText>
       <section>

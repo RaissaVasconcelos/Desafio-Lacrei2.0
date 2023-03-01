@@ -6,9 +6,9 @@ export function Header() {
       <div>
         <h1>Lacrei</h1>
         <NavContainer>
-          <NavbarLink color= '#018762' to='/'>Home</NavbarLink>
-          <NavbarLink color= '#018762' to='/pessoa-usuaria'>Pessoa Usuária</NavbarLink>
-          <NavbarLink color= '#018762' to='/profissional'>Profissional</NavbarLink>
+          <NavbarLink color= '#018762' to='/' data-testid="home-header">Home</NavbarLink>
+          <NavbarLink color= '#018762' to='/pessoa-usuaria' data-testid="usuaria-header">Pessoa Usuária</NavbarLink>
+          <NavbarLink color= '#018762' to='/profissional' data-testid="profissional-header">Profissional</NavbarLink>
         </NavContainer>
       </div>
     </HeaderContainer>
