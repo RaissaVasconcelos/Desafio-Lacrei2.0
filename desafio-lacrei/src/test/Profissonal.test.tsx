@@ -18,7 +18,7 @@ describe('Elements in Page Pessoa Usuaria', () => {
     expect(text).toHaveTextContent('Profissional');
   });
 
-  it('should paragh the Profissional page', () => {
+  it('should paragh the Profissional Page', () => {
     const text = screen.getByText('Buscamos recrutar pessoas profissionais da saúde que entendam as necessidades e se comprometam com o bem-estar da comunidade LGBTQIAPN+');
     expect(text).toBeInTheDocument();
   });
