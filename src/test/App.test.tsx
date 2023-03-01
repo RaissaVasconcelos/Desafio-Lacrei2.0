@@ -5,7 +5,7 @@ import React from 'react';
 import { Footer, Header } from '../componentes';
 import { Home, PessoaUsuaria, Profissional } from '../pages';
 
-describe('App tests Together with Header, Main and Footer of the page', () => {
+describe('App tests Together with Header, Main and Footer of the Page', () => {
     beforeEach(() => {
       render(
         <BrowserRouter>
